@@ -158,7 +158,7 @@ for (let index = 0; index < substract.length; index++) {
         } else if (puntos[index] % 5 === 4) {
             sections[index].removeChild(divs[divs.length-1]);// sacar el último div extra
             divs[divs.length-1].removeChild(divs[divs.length-1].firstChild);
-            i[index]--; // solo una vez
+            //i[index]--; // solo una vez
         }
         h2.textContent = `total ${puntos[index]}`;
     }
