@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anotador Cartas</title>
+    <link rel="stylesheet" href="anotadorCSS.css">
+</head>
+<body>
+    <div id="first-modal" class="modal-container ocultar">
+        <form id="form">
+            <input type="text" name="modal" placeholder="Ingrese el nuevo nombre" id="nombre">
+            <button type="reset" id="Confirmar" onclick="cambiarNombre()">Confirmar Cambio</button>
+        </form>
+        
+    </div>
+    <div id="background-modal" class="ocultar"></div>
+    <main id="main-anotador">
+        <dialog>
+            <h3>Gano el jugador con el nombre <strong id="nombre-jugador"></strong></h3>
+        </dialog>
+        
+    </main>
+    <script src="./scriptAnotador.js"></script>
+</body>
+</html>
