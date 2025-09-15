@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "canvas-confetti": "^1.9.3"
+  },
+  "name": "anotador-cartas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "devDependencies": {
+    "vite": "^7.1.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GregorioVeraza/AnotadorDeCartas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GregorioVeraza/AnotadorDeCartas/issues"
+  },
+  "homepage": "https://github.com/GregorioVeraza/AnotadorDeCartas#readme"
+}

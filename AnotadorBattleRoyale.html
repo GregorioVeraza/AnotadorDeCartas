@@ -4,61 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body{
-            background-color: green;
-        }
-
-        table{
-            background-color: black;
-        }
-
-        tr{
-            width: 200px;
-            min-width: 200px;
-            height: 20px;
-            background-color: aqua;
-            border: 1px solid black;
-        }
-        td{
-            width: 200px;
-            
-        }
-        td:nth-of-type(1){
-            width: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="animaciones.css">
     
 </head>
 <body>
-    <button onclick="agregarFila()">
+    <header>
+        <button id="agregar-fila">
         agregar fila
     </button>
 
-    <button onclick="borrarFila()">
+    <button id="borrar-fila">
         Borrar ultima fila
     </button>
+    </header>
+    
 
     <dialog id="modal">
         <span>cuantos puntos hizo <strong id="jugador"></strong>: <input type="number" id="puntos"></span>
-        <button onclick="actualizarFila()">agregar</button>
+        <button id="actualizar-fila">agregar</button>
     </dialog>
-    <dialog>
-        <h1></h1>
-        <button onclick="cerrar(1)">Cerrar</button>
+    <dialog id="modal-perdedor">
+        <h1 id="perdedor"></h1>
+        <button class="cerrar">Cerrar</button>
         <a href="./index.html">Nueva Partida</a>
     </dialog>
 
     <dialog>
         <input type="text" id="nuevo-nombre" placeholder="ingrese el nuevo nombre">
-        <button onclick="cerrar(2)">cancelar</button>
-        <button onclick="cambiarNombre(2)">aplicar cambio</button>
+        <button class="cerrar">cancelar</button>
+        <button id="cambiar-nombre">aplicar cambio</button>
     </dialog>
+
 
     <table id="tabla">
         
     </table>
 
-    <script src="./scriptAnotadorNormal.js"></script>
+    <script type="module" src="./src/scriptBattleRoyale.js"></script>
 </body>
 </html>

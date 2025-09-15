@@ -133,9 +133,7 @@ function borrarFila(){
     if (tabla.children.length > 1){
         tabla.removeChild(tabla.lastChild);    
     }
-    console.log(`antes: ${ultimaResultados}`);
     puntos = ultimaResultados.slice();
     puntosAnteriores();
-    console.log(`despues: ${ultimaResultados}`);
     ronda--;
 }

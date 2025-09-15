@@ -1,0 +1,73 @@
+body{
+    background-color: #0B6623;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+dialog{
+    border: 2px solid #808080;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #2E8B57;
+    color: #F8F8F8;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    width: 80vw;
+}
+h1,p,h2{
+    color: #F8F8F8;
+}
+button{
+    border: 1px solid #808080;
+    padding: 10px;
+    border-radius: 10px;
+ 
+}
+
+button:hover{
+    background-color: #2E8B57;
+    color: #F8F8F8;
+    transition: background-color 0.4s ease;
+}
+table{
+    background-color: #808080;
+    border-radius: 10px;
+}
+tr{
+    width: 200px;
+    min-width: 200px;
+    height: 20px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+td:first-child, td:nth-last-child{
+    border-radius: 10px;
+
+}
+td{
+    text-align: center;
+    width: 200px;
+    border-radius: 10px;
+    
+}
+td:nth-of-type(1){
+    width: 20px;
+}
+
+.ganador {
+  background-color: green;
+  color: white;
+  transition: background-color 0.4s ease;
+}
+
+.perdedor {
+  background-color: #B22222;
+  color: white;
+  transition: background-color 0.4s ease;
+}
