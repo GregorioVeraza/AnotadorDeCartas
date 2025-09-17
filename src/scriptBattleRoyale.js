@@ -1,4 +1,4 @@
-import confetti from 'canvas-confetti';
+
 import { crearTabla, mostrarModal, actualizarFila, agregarFila, borrarFila } from './tabla.js';
 import { cerrar, cambiarNombre  } from './modal.js';
 import { animacionGanar } from './animaciones.js';
